@@ -1,0 +1,14 @@
+CREATE TABLE Clients (
+    Id INTEGER NOT NULL AUTOINCREMENT,
+    Name TEXT NOT NULL,
+    Phone TEXT NOT NULL,
+    Birthdate DATE NOT NULL,
+    PRIMARY KEY(Id)
+);
+
+CREATE TABLE SubscriptionTypes (
+    Id INTEGER NOT NULL AUTOINCREMENT,
+    Name TEXT NOT NULL,
+    Price REAL NOT NULL,
+    PRIMARY KEY(Id)
+);
